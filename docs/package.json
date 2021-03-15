@@ -6,7 +6,9 @@
   "scripts": {
     "develop": "gatsby develop",
     "prebuild": "pushd ..; npm install; npm run build; popd",
-    "build": "gatsby build --prefix-paths"
+    "build": "gatsby build --prefix-paths",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "dependencies": {
     "@primer/components": "^19.0.0",
@@ -16,7 +18,7 @@
     "downloadjs": "^1.4.7",
     "eslint-plugin-github": "^3.4.1",
     "fuse.js": "^3.4.6",
-    "gatsby": "^2.13.25",
+    "gatsby": "^3.0.0",
     "lodash.flatmap": "^4.5.0",
     "lodash.groupby": "^4.6.0",
     "pascal-case": "^3.1.1",
@@ -24,6 +26,8 @@
     "polished": "^3.4.4",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "svg-to-pdfkit": "^0.1.8"
-  }
+    "svg-to-pdfkit": "^0.1.8",
+    "snyk": "^1.486.0"
+  },
+  "snyk": true
 }
