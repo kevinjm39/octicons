@@ -27,7 +27,7 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "svg-to-pdfkit": "^0.1.8",
-    "snyk": "^1.486.0"
+    "snyk": "^1.518.0"
   },
   "snyk": true
 }
